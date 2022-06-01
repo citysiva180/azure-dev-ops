@@ -1,0 +1,53 @@
+########################################################
+________________________________________________________
+
+  /$$$$$$  /$$$$$$$$ /$$   /$$ /$$$$$$$  /$$$$$$$$
+ /$$__  $$|_____ $$ | $$  | $$| $$__  $$| $$_____/
+| $$  \ $$     /$$/ | $$  | $$| $$  \ $$| $$      
+| $$$$$$$$    /$$/  | $$  | $$| $$$$$$$/| $$$$$   
+| $$__  $$   /$$/   | $$  | $$| $$__  $$| $$__/   
+| $$  | $$  /$$/    | $$  | $$| $$  \ $$| $$      
+| $$  | $$ /$$$$$$$$|  $$$$$$/| $$  | $$| $$$$$$$$
+|__/  |__/|________/ \______/ |__/  |__/|________/
+                                                  
+
+#########################################################
+_________________________________________________________                                             
+                                                  
+Introduction : 
+
+Cloud Computing Introduction 
+Benefits of Cloud Computing 
+Key Cloud Terminology
+
+    - Fault Tolerance 
+    - High Availability 
+    - Scalability 
+    - Elasticity 
+
+What is a cloud?
+
+    Using computing resources somewhere else which is owned by somebody else for a payment 
+    You are basically using a server in a datacenter somewhere 
+
+    - Its a linux based server 
+    - Its someone else computer which we rent 
+
+Fault tolerance : 
+
+    Redundency or Resiliancy 
+    If a malfunction happens its not lost since it lives on a remote data center  
+    If the data is just present in cloud server so its never lost. 
+
+High Availability : 
+
+    Its not just present in cloud, its also highly avaialble in cloud 
+    You could access these files using the internet and download in any other devices where you want these files 
+    With internet connection the data is never lost. 
+
+
+
+
+
+
+
