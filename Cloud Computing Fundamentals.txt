@@ -30,7 +30,7 @@ What is a cloud?
     Using computing resources somewhere else which is owned by somebody else for a payment 
     You are basically using a server in a datacenter somewhere 
 
-    - Its a linux based server 
+    - Its a linux / Windows based server 
     - Its someone else computer which we rent 
 
 Fault tolerance : 
@@ -45,9 +45,47 @@ High Availability :
     You could access these files using the internet and download in any other devices where you want these files 
     With internet connection the data is never lost. 
 
+Scalabilty :  
 
+    Forcasting user demand is super difficult 
+    this leads to wasted money on resources 
+    With these challenges on mind, cloud service providers actually help scaling up and down and charge only to 
+    servers which the customers have used. 
+    Within minutes we could scale up and down 
+    
+Azure Organization and Infrastructure : 
 
+    - Azure Global Infra 
+    - Azure Services 
+    - Resource Hierarchy and Organization 
+    - Indentity and Access Management 
+    - Monitoring your Azure Environment 
 
+Organization and Relationships 
+
+    - Physical and Digital organization 
+    - Nested Relationships 
+    - Solutions and Visibility 
+
+What is Azure? :  
+
+    - Its a Microsoft Public cloud computing platform ( Anyone could use it)
+    - It has over 200 indiviuslaproducts and services 
+    - Build,run and manage applications on Microsofts global infrastucture 
+        - IAAS
+        - SAAS 
+        - PAAS 
+    Supplement or replace existing on-premises computing services 
+    The main advantage is pay-as-you-go pricing in which you only pay for what you use 
+
+        - No up-front commitment for resources
+        - Billed by the second for using services  -  eg :  use a VM for 103 seconds, only pay for 103 seonds 
+        - Cloud Terminology : Operational expense - Expense on operation 
+
+Azure's Global Infrastructure :  
+
+    Region  :  Group of Datacenteres in a single geographical Location 
+    Availability zone :  One of Several unique Locations in a Region 
 
 
 
