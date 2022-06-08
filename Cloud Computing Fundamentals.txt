@@ -85,7 +85,93 @@ What is Azure? :
 Azure's Global Infrastructure :  
 
     Region  :  Group of Datacenteres in a single geographical Location 
+
+            High Availability Fault Tolerance 
+            Be closer to your end users and defend against regional outage 
+
     Availability zone :  One of Several unique Locations in a Region 
 
+            Availability zone is an individual and self contained data center. So within a region you keep 3 or 4 availability zones 
+            for better reach of data. They are connected seriously with each other so if one fails, the other one comes into picture 
+
+Azure Services: 
+
+Over 200 services available or any solutions required 
+
+    - Large number of managed services for multiple use caes 
+    - Different types of IAAS, PAAS and SAAS offerings 
+
+    Traditional IT 
+
+        - You manage all 
+    
+    Infrastructure ; 
+    
+        - You manage most 
+
+                - Virtual Servers 
+                - You are responsible for maintaining OS 
+
+    Platform: 
+        
+        - You manage some 
+
+                - Cloud vendor maintains infrastructure for you 
+                - You focus on the application code and data 
+
+    Software : 
+
+        - You manage very less 
+
+                - Vendor provides the full software stack 
 
 
+Azure Resource Manager :  
+
+    All interactions goes throuh Azure Resource Manager / ARM 
+
+    Centralized Managed Layer 
+
+        - Web Portal 
+        - Command Line Interface 
+        - Application access 
+        - Access Control (Authentication)
+    
+Azure Resource and Hierarchy and Organization 
+
+    - How do we organize our Azure Resources and Services 
+    - How do we track who is paying for what 
+    - How do we limit who has accss to different sets of resources? 
+
+Azure Resource Hierarchy :  
+
+    All Resources start with Azure Tenant 
+
+        Management Groups ---> Subscriptions  ---> Resource Groups  ---> Resources 
+
+Azure Resource Hierarchy Fundamentals 
+
+    All resourcs are assigned to a Parent Child Relationships 
+    Access / policies granted to parent inherited by child levels 
+    Centralized Management 
+    Parent have multiple children but a child can have only single parent 
+    Similar to operating system file structure 
+
+
+    Tenent  -  Single Orgaization instance of Azure Active Directory |  Single bucket to manage all users 
+    Management groups  - Grouping components | Central management of multiple susbscriptions 
+    Subscriptions -  Primary billing and access isolation boundary | Each subscription has its own billing agreement 
+    Resource Groups -  Group resources togather for same purpose or lifecycle | All Azure resources are created in Resource Groups 
+    Resources -  Anything Created on Azure (VM, Storage account etc)
+
+
+    Tenant - Organization / Azure ID users 
+    Subscriptions  Centralized Management of Subscriptions 
+
+
+Azure Identity and Aces Management : 
+
+    Take it in three levels 
+        - Who 
+        - Can do what 
+        - on which resources 
